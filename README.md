@@ -1,2 +1,1 @@
-# alx-low_level_programming
-An alx supreme course
+inner readme in alx 0x00-hello_world
