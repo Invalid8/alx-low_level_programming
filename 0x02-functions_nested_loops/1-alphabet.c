@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 
 /* betty style doc for function main goes there */
 /**
@@ -19,10 +20,12 @@ int main(void)
 /* this function is to print alphabet */
 void print_alphabet(void)
 {
-	for (int i = 'a'; i <= 'z'; ++i)
+  int i;
+  
+	for (i = 'a'; i <= 'z'; ++i)
 	{
-		putchar(i);
+		_putchar(i);
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
