@@ -11,7 +11,7 @@ int _islower(int c);
 
 int _islower(int c)
 {
-	if (c._islower())
+	if (islower(c))
 		return (1);
 	else
 		return (0);
