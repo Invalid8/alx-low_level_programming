@@ -10,12 +10,6 @@
 
 void print_alphabet_x10(void);
 
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
-
 /* print any alphabet 10 times */
 void print_alphabet_x10(void)
 {
