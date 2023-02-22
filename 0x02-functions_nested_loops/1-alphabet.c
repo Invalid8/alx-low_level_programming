@@ -1,14 +1,12 @@
 #include <stdio.h>
 
-/**
-* main - Entry point
-*
-* Return: Always 0 (Success)
-*/
-
 void print_alphabet(void);
 
-/* This function is for printing alphabets out */
+/**
+* print_alphabet - Entry point
+* Description: 'This function is for printing alphabets out'
+* Return: abcdefghijklmnopqrstuvwxyz
+*/
 
 void print_alphabet(void)
 {
