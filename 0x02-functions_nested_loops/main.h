@@ -1,5 +1,3 @@
-#include "_putchar.c"
-
 #ifndef FOO_H_
 #define FOO_H_
 
