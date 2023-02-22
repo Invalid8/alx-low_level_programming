@@ -4,9 +4,6 @@
 *
 * Return: Always 0 (Success)
 */
-
-int _putchar(char n);
-
 /* this function is to print alphabet */
 void print_alphabet(void)
 {
