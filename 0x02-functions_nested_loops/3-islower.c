@@ -4,15 +4,20 @@ int _islower(int c);
 
 /**
 * _islower - Entry point
-* c - integer
-* Description: 'Checking numbers out'
-* Return: 1 or 0
+* @c: an integer or char
+* Description: 'Checking function out'
+* Return: 1 if lower or else 0
 */
-
 int _islower(int c)
 {
-	if (islower(c))
-		return (1);
-	else
-		return (0);
+	char i;
+	int lower = 0;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		if (i == c)
+			lower = 1;
+	}
+
+	return (lower);
 }
