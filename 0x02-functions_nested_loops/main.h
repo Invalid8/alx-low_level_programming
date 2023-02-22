@@ -5,6 +5,6 @@
 
 int _putchar(char c);
 
-#endif // FOO_H_
+#endif FOO_H_
 
 void print_alphabet(void);
