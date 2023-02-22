@@ -23,7 +23,8 @@ void print_alphabet(void)
 
 	while (n < 10)
 	{
-		for (int i = 'a'; i <= 'z'; ++i)
+	  int i;
+	  for (i = 'a'; i <= 'z'; ++i)
 		{
 			putchar(i);
 		}
