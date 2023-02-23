@@ -2,7 +2,7 @@
 
 /**
 * Main - Entry point
-* Description: 'This normal function'
+*
 * Return: 0 SUCCESS
 */
 
