@@ -1,24 +1,25 @@
 #include <stdio.h>
 
-int _islower(int c);
+int _isalpha(int c);
 
 /**
-* _islower - Entry point
+* _isalpha - Entry point
 * @c: the input
-* Description: 'This function is for printing alphabets out'
-* Return: 1 or 0
+* Description: 'This function is for checking out alphabetic input'
+* Return: 1 if true or 0 if false
 */
 
-int _islower(int c)
+int _isalpha(int c)
 {
-	char i;
-	int lower = 0;
+	char i, j;
+	int alpha = 0;
 
 	for (i = 'a'; i <= 'z'; i++)
-	{
-		if (i == c)
-			lower = 1;
-	}
+		for (j = 'A'; j <= 'Z'; j++)
+		{
+			if (i == c || j == c)
+				alpha = 1;
+		}
 
-	return (lower);
+	return (alpha);
 }
