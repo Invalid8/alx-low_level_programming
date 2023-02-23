@@ -10,12 +10,6 @@ void jack_bauer(void);
 * Return: All time between
 */
 
-int main()
-{
-	jack_bauer();
-	return 0;
-}
-
 void jack_bauer(void)
 {
 	int H, M;
