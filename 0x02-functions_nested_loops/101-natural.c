@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* Main - Entry point
-*
+* main - Entry point
+* Description: 'This normal function for main document'
 * Return: 0 SUCCESS
 */
 
