@@ -9,6 +9,8 @@ void print_times_table(int n);
 * Return: nothing
 */
 
+void putformat(int n);
+
 void print_times_table(int n)
 {
 	int i, j;
@@ -19,7 +21,7 @@ void print_times_table(int n)
 		{
 			putchar('0');
 			for (j = 1; j <= n; j++)
-				putchar(i * j);
+				putformat(i * j);
 			putchar('\n');
 		}
 	}
