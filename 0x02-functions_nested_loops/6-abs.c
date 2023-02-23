@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int _abs(int c);
+int _abs(int r);
 
 /**
 * _abs - Entry point
@@ -10,7 +10,7 @@ int _abs(int c);
 * Return: the absolute of @c
 */
 
-int _abs(int c)
+int _abs(int r)
 {
 	if (r >= 0)
 		return (r);
