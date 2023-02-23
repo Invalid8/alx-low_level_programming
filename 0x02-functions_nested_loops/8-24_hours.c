@@ -4,7 +4,6 @@ void jack_bauer(void);
 
 /**
 * jack_bauer - Entry point
-* @c: the input
 * Description: 'This function is for get time from
 * 0:00 to 23: 59'
 * Return: All time between
