@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * print_diagonal - this is a function for check out
+ * print_diadonal - this is a function for check out
  * @n: this is the input to work on
  * Decription: 'This function is to draw daigonal'
  * Return: daigonal
@@ -11,24 +11,18 @@ void print_diagonal(int n);
 
 void print_diagonal(int n)
 {
-	char s = '\\';
+	int i = 0, j;
 
-	int sn = 0;
-
-	while (n > 0)
+	if (n > 0)
 	{
-		int i;
-
-		for (i = 0; i < sn; i++)
+		for (; i < n; i++)
 		{
-			putchar(' ');
+			for (j = 0; j < i; j++)
+				_putchar(' ');
+			_putchar(92);
+			_putchar('\n');
 		}
-
-		putchar(s);
-		putchar('$');
-		putchar('\n');
-
-		n--;
-		sn++;
 	}
+	else
+		_putchar('\n');
 }
