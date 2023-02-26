@@ -1,5 +1,6 @@
-#include "main.h"
+#include <stdio.h>
 
+void print_number(int n);
 void print_integer(int m);
 
 /**
@@ -10,10 +11,10 @@ void print_integer(int m);
 void print_number(int n)
 {
 	if (n == 0)
-		_putchar('0');
+		putchar('0');
 	else if (n < 0)
 	{
-		_putchar('-');
+		putchar('-');
 		print_integer(n * -1);
 	}
 	else
@@ -32,6 +33,6 @@ void print_integer(int m)
 	for (; i >= 1; i /= 10)
 		if (m / i != 0)
 		{
-			_putchar((m / i) % 10 + '0');
+			putchar((m / i) % 10 + '0');
 		}
 }
