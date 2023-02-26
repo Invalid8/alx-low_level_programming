@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * print_diadonal - this is a function for check out
+ * print_diagonal - this is a function for check out
  * @n: this is the input to work on
- * Decription: 'This function is to draw daigonal'
- * Return: daigonal
+ * Decription: 'This function is to draw diagonal'
+ * Return: diagonal
  */
 
 void print_diagonal(int n);
