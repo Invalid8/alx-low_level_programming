@@ -10,16 +10,19 @@ void more_numbers(void);
 
 void more_numbers(void)
 {
-	int H;
+	int H, n;
 
-	for (H = 0; H < 15; H++)
+	while (n < 10)
 	{
-		if (H > 9)
+		for (H = 0; H < 15; H++)
 		{
-			putchar((H / 10) + '0');
+			if (H > 9)
+			{
+				putchar((H / 10) + '0');
+			}
+			putchar((H % 10) + '0');
 		}
-		putchar((H % 10) + '0');
+		putchar('\n');
+		n++;
 	}
-
-	putchar('\n');
 }
