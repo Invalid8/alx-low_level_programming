@@ -11,30 +11,23 @@ void print_triangle(int size);
 
 void print_triangle(int size)
 {
-	char s = '#';
+	int i = 0, j, n = size - 1;
 
-	int n, sn1;
-
-	n = 0;
-	sn1 = size - 1;
-
-	while (size > n)
+	if (size > 0)
 	{
-		int i;
-
-		for (i = 0; i < sn1; i++)
+		for (; i < size; i++)
 		{
-			putchar(' ');
+			for (j = 0; j < size; j++)
+			{
+				if (j < n)
+					putchar(' ');
+				else
+					putchar('#');
+			}
+			n--;
+			putchar('\n');
 		}
-
-		for (i = size - sn1; i > 0; i--)
-		{
-			putchar(s);
-		}
-
-		putchar('\n');
-
-		sn1--;
-		n++;
 	}
+	else
+		putchar('\n');
 }
