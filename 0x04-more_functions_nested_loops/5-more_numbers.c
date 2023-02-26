@@ -8,12 +8,6 @@
 
 void more_numbers(void);
 
-int main()
-{
-	more_numbers();
-	return (0);
-}
-
 void more_numbers(void)
 {
 	int i, j = 0;
