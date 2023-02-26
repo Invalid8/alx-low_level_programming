@@ -8,21 +8,25 @@
 
 void more_numbers(void);
 
+int main()
+{
+	more_numbers();
+	return (0);
+}
+
 void more_numbers(void)
 {
-	int H, n;
+	int i, j = 0;
 
-	while (n < 10)
+	for (; j < 10; j++)
 	{
-		for (H = 0; H < 15; H++)
+		for (i = 0; i <= 14; i++)
 		{
-			if (H > 9)
-			{
-				putchar((H / 10) + '0');
-			}
-			putchar((H % 10) + '0');
+			if (i > 9)
+				putchar(i / 10 + '0');
+
+			putchar(i % 10 + '0');
 		}
 		putchar('\n');
-		n++;
 	}
 }
