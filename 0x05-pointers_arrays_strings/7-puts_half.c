@@ -19,17 +19,16 @@ void puts_half(char *str)
 
 	while (str[len] != '\0')
 	{
-		len ++;
+		len++;
 	}
 
 	h_len = len % 2 == 0 ? len / 2 : (len - 1) / 2;
-	printf("%d\n",h_len);
 
 	n = h_len;
 	while (str[n] != '\0')
 	{
 		putchar(str[n]);
-		n ++;
+		n++;
 	}
 	putchar('\n');
 }
